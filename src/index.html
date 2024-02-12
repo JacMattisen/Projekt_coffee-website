@@ -1,22 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index Page</title>
-    <link rel="stylesheet" href="/css/main.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Oregano"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    {{> header }}
-    <h1>Hello World Test!</h1>
+    <title>FEND Coffee Website - Jac</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+    
+</head>
+<body>
+    
+        <header id="header">
+        
+            <div class="container">
+                
+                <div class="flex">
+                <!-- icon de navegacao - CRIAR */ -->
+                <a href="home" class="menu-hamburguer bubble"> <img src="./img/Logo_black.jpg"></a>
+            
+        <nav>
+            <ul>
+                <li>
+                    <a href="dascafe.html" target="_blank" class="das-cafe"> das Café </a>
+                </li>
+
+                <li>
+                    <a href="herkunft" target="_blank" class="herkunft"> Herkunft </a>
+                </li>
+
+                <li>
+                    <a href="shop" target="_blank" class="shop"> Shop </a>
+                </li>
+            </ul>
+        </nav>
+                </div>
+            </div>
+        
+        </header>
+    
+        <!--<button class="btn-open-nav" type="button"></button> -->
+
+        <section class="fullscreen" id="id-fullscreen">
+            <div class="text-center">
+                <h1> Rustica</h1>
+                
+                <h2> Bio und Fair seit 1991 </h2>
+            </div>
+            <div class="btn-shop">
+                <a href="shop"><button> zum Shop </button></a>
+            </div>
+    </section>
+
+        
+
+    <hr/> <!-- quebra de seção -->
+    
     <main>
-      <a href="/sub-page/">Link to Subpage</a>
-      <div>Home</div>
+        <section id="id-roesterei">
+            <div class="roesterei">
+                <h2 class="h2-text"> Rösterei & Café </h2>
+                <p> Kaffee aus Kiel, direkt gahndelt und geröstet in der <br>eigenen Rösterei, serviert im gemütlichen Café in<br> der Innenstadt.</p>
+                <div class="besuchen">
+                    <p> Komm uns besuchen!</p>
+                    <address class="address">Frauenhoferstr. 13, Kiel</address>
+                </div>
+                <div class="uhrzeit">
+                    <div> Mo - Fr 8 - 18 Uhr </div>
+                    <div> Sa 11 - 18 Uhr </div>
+                </div>
+                <div class="img-roesterei">
+                    <img src="./img/roesterei_cafe.jpg" alt="Menschen,die Kaffee geniessen">
+                </div>
+            </div>
+        </section>
+        
+        <hr/> 
+
+        <section id="id-bio">
+            <div class="bio-container">
+                <h2 class="h2-bio"> Bio und Fair </h2>
+                <p>Weit hinten, hinter den Wortbergen, fern der Läander Vokalien<br> und Konsonantien leben die Blindtexte. Weit hinten, hinter den <br>Wortbergen, fern der Läander Vokalien und Konsonantien leben <br>die Blindtexte. Und das alles in bester Bio Qualität.</p>
+                <a href="#" class="mehr">mehr</a>
+            </div>
+            
+            <div class="img-bio"> 
+            <img src="./img/coffee-plant.jpg" alt="plant-coffee">
+            </div>
+        </section>
+
+        <section id="entdecke">
+            
+            <div class="p-entdecke">
+                            
+                <h2> Entdecke unsere </h2>
+                    <span>Kaffee Sorten</span>
+            </div>
+
+        <div class="row">
+                
+            <div class="col">
+                <div class="img-costaRica">
+                    <img src="./img/FEND_Coffee_Costa-Rica 1.jpg" alt="image-coffee">
+                    <p>Costa Rica</p>
+                    <span> 6,90€ - 26,90€</span>
+                </div>
+                <div class="img-icons">
+                    <img src="./img/Icon Kaffee Bohnen.png" alt="kaffee-bohnen">
+                <img src="./img/Icon French Press.png" alt="French-press">
+                <img src="./img/Icon Kaffee Schaufel.png" alt="kaffee-schaufel">
+                </div>
+            </div>
+            
+
+                <div class="col">
+            <div class="img-äthiopien">
+                <img src="./img/FEND_Coffee_Costa-Rica 1.jpg" alt="image-coffee">
+                <p>Äthiopien</p>
+                <span> 6,90€ - 26,90€</span>
+            </div>
+            <div class="img-icons">
+                <img src="./img/Icon Kaffee Bohnen.png" alt="kaffee-bohnen">
+                <img src="./img/Icon French Press.png" alt="French-press">
+                <img src="./img/Icon Kaffee Schaufel.png" alt="kaffee-schaufel">
+            </div>
+                </div>
+            
+                <div class="col">
+            <div class="img-costaRica2">
+                <img src="./img/FEND_Coffee_Costa-Rica 1.jpg" alt="image-coffee">
+                <p>Costa Rica</p>
+                <span> 6,90€ - 26,90€</span>
+            </div>
+            <div class="img-icons">
+                <img src="./img/Icon Kaffee Bohnen.png" alt="kaffee-bohnen">
+                <img src="./img/Icon French Press.png" alt="French-press">
+                <img src="./img/Icon Kaffee Schaufel.png" alt="kaffee-schaufel">
+            </div>
+                </div>
+
+                <div class="col">
+            <div class="img-äthiopien2">
+                <img src="./img/FEND_Coffee_Costa-Rica 1.jpg" alt="image-coffee">
+                <p>Äthiopien</p>
+                <span> 6,90€ - 26,90€</span>
+            </div>
+            <div class="img-icons">
+                <img src="./img/Icon Kaffee Bohnen.png" alt="kaffee-bohnen">
+                <img src="./img/Icon French Press.png" alt="French-press">
+                <img src="./img/Icon Kaffee Schaufel.png" alt="kaffee-schaufel">
+            </div>
+                </div>
+
+        </div>
+                        
+            <div class="btn-alle-produkt">
+                <a href="alle-produkt"><button> alle Produkt </button></a>
+            </div>
+        </section>
+
+        <section id="coffee-bags">
+            <div class="bags-coffee">
+                <img src="./img/Coffee-bags.jpg" alt="coffee-bags">
+                <p>Weit hinten, hinter den Wortbergen, <br>fern der Länder Vokalien und <br>Konsonantien leben die Blindtexte.<br> Und das alles in bester Bio Qualität.</p>
+                <a href="#" class="mehr">mehr</a>
+            </div>
+        </section>
+
+        <section id="steckt">
+            <div class="das-steckt">
+                <h1>Das steckt drin </h1>
+                <img src="./img/FEND_Coffee_Costa-Rica 1.jpg" alt="coffee">
+            </div>
+
+            <div class="icons">
+            <div class="icons-img1">
+            <img src="./img/Icon-Kaffee Pflanze.png" alt="coffee-plant">
+            <p>Bio <br>Qualität</p>
+            </div>
+
+            <div class="icons-img2">
+                <img src="./img/Icon Kaffee Schaufel.png" alt="kaffee-schaufel">
+                <p>Fair <br>gehandelt</p>
+            </div>
+
+            <div class="icons-img3">
+                <img src="./img/Icon_tasse.png" alt="kaffee-tasse">
+                <p> Bester<br> Geschmack</p>
+            </div>
+            </div>
+
+            <div class="btn-shop2">
+                <a href="shop"><button> zum Shop </button></a>
+            </div>
+        </section>
+        
+        <hr/>
+
+        <section id="map">
+            <h2>Komm vorbei</h2>
+            <div class="container-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2133.681975043028!2d10.139708462441074!3d54.325225499141396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416203ff5f4c9097%3A0x5322b25d06ab30c9!2sCastelo%20de%20Kiel!5e0!3m2!1spt-BR!2sde!4v1707390294710!5m2!1spt-BR!2sde" width="1280" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <hr/>
+
+        <footer id="footer">
+            <div class="teil1">
+            <img src="./img/logo_white.png" alt="logo-white">
+            <h2>Rustica</h2>
+            <span> Café & Rösterei</span>
+            </div>
+
+            <div class="teil2">
+                <h2>Komm uns besuchen</h2>
+                <span>Frauenhofstr. 13, Kiel</span>
+            </div>
+
+            <div class="teil3">
+                <h2>Mo - Fr 8-18 Uhr</h2>
+                <span>Sa 11-18 Uhr</span>
+            </div>
+
+            <div class="teil4">
+                <h2>Café</h2>
+                <span>Shop</span>
+                <h3>Herkunft</h3>
+            </div>
+
+            <div class="teil5">
+                <h2>Impressum</h2>
+                <span>Datenschutz</span>
+            </div>
+        </footer>
     </main>
-    <script src="/js/index.js" type="module"></script>
-  </body>
+        
+    <script src="./script.js"></script>
+</body>
+
 </html>

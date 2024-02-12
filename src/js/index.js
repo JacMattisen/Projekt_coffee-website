@@ -1,7 +1,12 @@
-import myFunction, { multiply } from "./myModule";
-
-myFunction();
-
-const result = multiply(2, 5);
-
-console.log(result);
+function toggleMenu() {
+    var menu = document.querySelector('ul');
+    if(menu.style.display === "none") {
+        menu.style.display = "block";
+    } else {
+        menu.style.display = "none";
+    }
+ }
+ 
+ var hamburgerButton = document.querySelector('.menu-hamburguer');
+ hamburgerButton.addEventListener('click', toggleMenu);
+ 

@@ -1,29 +1,446 @@
-body {
-  background: grey;
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    
+}
 
-  @media (min-width: 768px) {
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 100px;
+}
+.flex a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    
+    /*DIMINUIR O ESPACAMENTO ENTRE ELES*/
+}
+
+
+header {
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: .5s;
+}
+
+header li {
+    display: inline-block;
+    margin: 0 90px;
+    
+    
+    
+}
+
+
+
+.fullscreen {
+    height: 90vh;
+    width: 1280px;
+    margin: 0 auto;
+    background-image: url(./images/coffee.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-shop button{
+    width: 130px;
+    height: 45px;
+    border: 5px;
+    background-color: #121211;
+    color: #fff;
+    cursor: pointer;
+    transition: -2s;
+    margin-left: -340px;
+    margin-top: 380px;
+}
+
+header.rolagem{
+    background-color: #fff;
+    padding: 20px, 80px;
+    
+
+}
+header.rolagem a{
     color: red;
-  }
+    
+}
+header.rolagem a, header.rolagem img{
+    color: red;
+    
 }
 
-main {
-  margin: 0 auto;
-  max-width: 1440px;
-
-  & div {
-    color: yellow;
-
-    @media (min-width: 768px) {
-      color: var(--div-color);
-    }
-  }
+hr {
+    border: none; 
+    
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+
+.text-center h1, h2 {
+    color: #fff;
+    
+    text-align: center;
+    
+}
+.fullscreen h1 {
+    font-size: 160px;
+    margin-left: 60px;
+    
+}
+.fullscreen h2{
+    font-size: 25px;
+    margin-left: 165px;
+    margin-top: 0px;
 }
 
-h2 {
-  font-size: var(--h2-font-size);
+/*ROESTEREI*/
+
+#id-roesterei, #id-bio {
+    display: block;
+    height: 90vh;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 80px;
+    
+    
+}
+
+.roesterei p, .besuchen p, .uhrzei{
+    color: black;
+    font-size: 20px;
+    margin: 20px;/* VE SE REALMENTE PRECISA*/
+}
+
+.roesterei h2{
+    margin-bottom: 60px;
+    font-size: 32px;
+    color: black;
+}
+
+.roesterei p {
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+.uhrzeit {
+    margin-left: 270px;
+    margin-top: -50px;
+    font-size: 20px;
+}
+
+.besuchen address{
+    margin-top: -30px;
+    font-size: 20px;
+}
+.img-roesterei{ /*AUMENTAR O TAMANHO DA IMAGEM*/
+    height: 300px;
+    weight: auto;
+    margin-left: 500px;
+    margin-top: -100px;
+    
+}
+ /*BIO */
+#id-bio{
+    height: 90vh;
+    width: 1280px;
+    margin: 0 auto;
+}
+.bio-container h2, p {
+    color: black;
+    margin-top: -30px
+}
+.bio-container h2 {
+    margin-bottom: 90px;
+    font-size: 30px;
+    margin-left: 420px;
+    
+}
+
+.bio-container p, .mehr{
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-left: 420px;
+}
+.mehr {
+    text-decoration: underline;
+}
+.img-bio img{
+    height: 260px;
+    weight: auto;
+    margin-top: -230px;
+}
+
+
+/*ARRUMAR O ESPACAMENTO ENTRE O BIO E O WEIT HINTEN*/
+
+/*ENTDECKE*/
+
+#entdecke{
+    height: 110vh;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 80px;
+    
+    background-color: black;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.col {
+    display: block;
+    
+    margin-right: 10px;
+}
+
+.p-entdecke h2 {
+    display: flex;
+    
+    font-size: 40px;
+    padding: 0;
+    color: white;
+    margin-top: -30px;
+    margin-left: 210px;
+}
+.p-entdecke span{
+    margin-bottom: 90px;
+    font-size: 40px;
+    color: white;
+    margin-top: -60px;
+    margin-left: 210px;
+}
+.img-costaRica img, .img-äthiopien img, .img-costaRica2 img, .img-äthiopien2 img {
+    
+    height: 22px;
+    weight: auto;
+    margin-top: 40px;
+    
+    
+}
+
+.img-costaRica p, span, .img-äthiopien p, span, .img-costaRica2 p, span, .img-äthiopien2 p, span  {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.img-costaRica span, .img-äthiopien span, .img-costaRica2 span, .img-äthiopien2 span{
+    color: #808080;
+    margin-top: 15px;
+}
+
+.img-icons img{
+    height: 12px;
+    weight: auto;
+    
+}
+.btn-alle-produkt button{
+    width: 120px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 2px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: -2s;
+    color: #fff;
+    margin-top: 80px;
+    margin-left: 500px;
+}
+
+/* COFFEE BAGS*/
+#coffee-bags{
+    height: 90vh;
+    width: 1280px;
+    margin: 0 auto;
+}
+.bags-coffee img{
+    height: 90vh;
+    width: 1280px;
+    margin: 0 auto;
+}
+.bags-coffee p {
+    color: #fff;
+    
+    letter-spacing: 0.13em;
+    font-size: 18px;
+    margin-left: 500px;
+    margin-top: -305px;
+    margin-bottom: 20px;
+}
+.mehr {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 650px;
+}
+
+/*STECKT*/
+
+#steckt{
+    display: block;
+    height: 90vh;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 80px;
+    font-family: Roboto;
+    background-color: white;
+}
+
+.das-steckt h1{
+    color: black;
+    font-family: Roboto;
+    font-size: 38px;
+    margin-left: 320px;
+    
+}
+
+.das-steckt img {
+    height: 422px;
+    weight: auto;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.icons img {
+    display:block;
+    height: 32px;
+    weight: auto;
+    margin-left: 550px;
+    margin-top: -155px;
+}
+
+.icons p{
+    display:block;
+    color: black;
+    
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: -40px;
+}
+.btn-shop2 button{
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #121212;
+    border: solid ;
+    color: #fff;
+    cursor: pointer;
+    transition: -2s;
+    margin-left: 550px;
+    margin-top: 110px;
+    background-shadow: none;
+}
+
+#map{
+    max-width: 1280vh;
+    margin: 0 auto;
+    display: block;
+}
+#map h2{
+    font-size: 60px;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+.container-map iframe{
+    margin-top: 30px;
+}
+
+#footer{
+    height: 60vh;
+    width: 1280px;
+    margin: 0 auto;
+    display: block;
+    background-color: black;
+}
+
+.teil1, .teil2, .teil3, .teil4, .teil5{
+    display: block;
+    font-family: Roboto;
+    color: white;
+}
+
+.teil1 img{
+    margin-left: 120px;
+    margin-top: 100px;
+    height: 80px;
+
+}
+.teil1 h2{
+    font-size: 42px;
+    margin-bottom: 15px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.teil1 span{
+    font-size: 18px;
+    
+    margin-left: 120px;
+    
+}
+
+.teil2 h2{
+    
+    font-size: 18px;
+    
+    margin-left: 450px;
+    margin-top: -75px;
+}
+.teil2 span{
+    font-size: 16px;
+    
+    margin-left: 450px;
+    
+}
+.teil3 {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 450px;
+}
+.teil3 h2{
+    font-size: 12px;
+}
+
+.teil4 {
+    
+    margin-left: 750px;
+    margin-top: -75px;
+}
+.teil4 h2{
+    font-size: 16px;
+    margin-top: -85px;
+    
+}
+.teil4 span{
+    font-size: 16px;
+}
+
+.teil4 h3{
+    font-size: 16px;
+}
+
+.teil5 {
+    
+    margin-left: 1020px;
+    margin-top: -75px;
+}
+.teil5 h2{
+    font-size: 16px;
+    margin-top: 18px;
 }
