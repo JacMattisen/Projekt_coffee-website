@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 100px;
+    
+}
+.flex a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    
+    /*DIMINUIR O ESPACAMENTO ENTRE ELES*/
+}
+.flex img {
+    height: 30px;
+}
+
+.menu-hamburguer img {
+    margin-right:  720px; /* Ajuste o valor conforme necessário */
+}
+.menu-hamburguer {
+    margin-right:  10px; /* Ajuste o valor conforme necessário */
+}
+.shop img{
+    width:  40px; /* Define a largura da imagem */
+    height: auto;
+    padding: 10px;
+}
+
+
+header {
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: .5s;
+}
+
+header li {
+    display: inline-block;
+    margin: 0 30px;
+   
+    
+    
+    
+}
+
+
+
+
+
+
+#map{
+    max-width: 1280vh;
+    margin: 0 auto;
+    display: block;
+}
+#map h2{
+    font-size: 60px;
+    margin-left: 60px;
+    margin-top: 180px;
+}
+.container-map iframe{
+    margin-top: 60px;
+}
+
+#footer{
+    height: 50vh;
+    width: 1280px;
+    margin: 0 auto;
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+.teil1 h2, .teil1 span, .teil2 h2, .teil2 span, .teil3 h2, .teil3 span, .teil4 h2, .teil4 span, .teil5 h2, .teil5 span {
+    display: block;
+    
+    color: white;
+}
+
+.teil1 img{
+    margin-left: 120px;
+    margin-top: 100px;
+    height: 40px;
+
+}
+.teil1 h2{
+    font-size: 42px;
+    
+    margin-right: 900px;
+    
+    color: white;
+}
+.teil1 span{
+    font-size: 18px;
+    
+    margin-left: 120px;
+    
+}
+
+.teil2 h2{
+    
+    font-size: 17px;
+    
+    margin-right: 230px;
+    margin-top: -75px;
+}
+.teil2 span{
+    font-size: 16px;
+    
+    margin-left: 450px;
+    margin-bottom: 80px;
+}
+.teil3 span{
+    font-size: 16px;
+    
+    margin-left: 450px;
+}
+.teil3 h2{
+    font-size: 16px;
+    margin-right: 260px;
+    margin-top: -65px;
+}
+
+.teil4 {
+    color: white;
+    margin-left: 750px;
+    margin-top: -95px;
+    
+    
+}
+.teil4 a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+.teil5 {
+    color: white;
+    margin-left: 1050px;
+    margin-top: -65px;
+    
+    
+}
+.teil5 a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
