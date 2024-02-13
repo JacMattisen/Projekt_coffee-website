@@ -47,7 +47,7 @@ header li {
     height: 90vh;
     width: 1280px;
     margin: 0 auto;
-    background-image: url(./images/coffee.jpg);
+    background-image: url ();
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +91,7 @@ hr {
 
 
 .text-center h1, h2 {
-    color: red;
+    color: black;
     
     text-align: center;
     
@@ -126,13 +126,14 @@ hr {
 }
 
 .roesterei h2{
-    margin-bottom: 60px;
-    font-size: 32px;
+    
+    font-size: 55px;
     color: black;
+    margin-right: 690px;
 }
 
 .roesterei p {
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     font-size: 20px;
 }
 
@@ -143,11 +144,12 @@ hr {
 }
 
 .besuchen address{
-    margin-top: -30px;
+    margin-top: -20px;
     font-size: 20px;
+    margin-left: 18px;
 }
 .img-roesterei{ /*AUMENTAR O TAMANHO DA IMAGEM*/
-    height: 300px;
+    height: 600px;
     weight: auto;
     margin-left: 500px;
     margin-top: -100px;
@@ -161,25 +163,25 @@ hr {
 }
 .bio-container h2, p {
     color: black;
-    margin-top: -30px
+    margin-top: 60px
 }
 .bio-container h2 {
-    margin-bottom: 90px;
+    margin-bottom: -40px;
     font-size: 30px;
-    margin-left: 420px;
+    margin-left: 280px;
     
 }
 
 .bio-container p, .mehr{
     margin-bottom: 10px;
     font-size: 18px;
-    margin-left: 420px;
+    margin-left: 620px;
 }
 .mehr {
     text-decoration: underline;
 }
 .img-bio img{
-    height: 260px;
+    height: 320px;
     weight: auto;
     margin-top: -230px;
 }
@@ -190,7 +192,7 @@ hr {
 /*ENTDECKE*/
 
 #entdecke{
-    height: 110vh;
+    height: 180vh;
     width: 1280px;
     margin: 0 auto;
     padding: 80px;
@@ -213,31 +215,31 @@ hr {
 .p-entdecke h2 {
     display: flex;
     
-    font-size: 40px;
+    font-size: 80px;
     padding: 0;
     color: white;
-    margin-top: -30px;
-    margin-left: 210px;
+    margin-top: 70px;
+    margin-left: -40px;
 }
 .p-entdecke span{
     margin-bottom: 90px;
-    font-size: 40px;
+    font-size: 60px;
     color: white;
-    margin-top: -60px;
-    margin-left: 210px;
+    
+    margin-left: -40px;
 }
 .img-costaRica img, .img-äthiopien img, .img-costaRica2 img, .img-äthiopien2 img {
     
-    height: 22px;
+    height: 382px;
     weight: auto;
-    margin-top: 40px;
+    margin-top: 100px;
     
     
 }
 
 .img-costaRica p, span, .img-äthiopien p, span, .img-costaRica2 p, span, .img-äthiopien2 p, span  {
     color: #fff;
-    font-size: 12px;
+    font-size: 22px;
     margin-top: 5px;
 }
 
@@ -247,7 +249,7 @@ hr {
 }
 
 .img-icons img{
-    height: 12px;
+    height: 22px;
     weight: auto;
     
 }
@@ -299,13 +301,13 @@ hr {
     width: 1280px;
     margin: 0 auto;
     padding: 80px;
-    font-family: Roboto;
+    
     background-color: white;
 }
 
 .das-steckt h1{
     color: black;
-    font-family: Roboto;
+    
     font-size: 38px;
     margin-left: 320px;
     
@@ -387,6 +389,7 @@ hr {
     margin-bottom: 15px;
     margin-left: 120px;
     margin-top: 20px;
+    color: white;
 }
 .teil1 span{
     font-size: 18px;
