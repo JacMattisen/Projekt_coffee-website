@@ -58,81 +58,27 @@ hr {
     border: none; 
         
 }
-    
-    
-    /*.dascafe {
-        height: 90vh;
-        width: 1280px;
-        margin: 0 auto;
-    }*/
-    
-#das-cafe  {
-    height: 90vh;
+
+#herkunft  img {
+    height: 70vh;
     width: 1280px;
     margin: 0 auto;
-    background-image: url(./images/Headerbild.jpg);
+    /*background-image: url(./images/Coffee-beans-hand-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.das.cafe{
-    display: block;
-        
-}
-#das-cafe, #frisch, #galeria {
+
+.ursprung{
     width: 1280px;
     margin: 0 auto;
     color: black;
 }
-    
-.dascafe p, .besuchen p, .uhrzeit{
-    color: black;
-    font-size: 20px;
-    margin: 5px; 
-        
-}
-    
-.dascafe h2{
-    font-size: 42px;
-    color: black;
-    margin-left: 80px;
-    margin-bottom: 30px;
-    margin-top: 160px;
-}
-.dascafe p {
-    margin-bottom: 25px;
-    margin-left: 80px;
-        
-}
-.uhrzeit {
-    margin-left: 320px;
-        
-    font-size: 20px;
-}
-.besuchen p{
-    margin-left: 80px;
-}
-.besuchen address{
-    font-size: 20px;
-    margin-left: 80px;
-    margin-bottom: -57px;
-}
-.img-machine img{ /*AUMENTAR O TAMANHO DA IMAGEM*/
-        
-    height: 420px;
-    weight: auto;
-    margin-left: 600px;
-    margin-top: -210px;
-        
-}
-    
-    /*frisch*/
-    
-.frisches{
+.ursprung h2{
     font-size: 25px;
     color: black;
         
@@ -140,55 +86,17 @@ hr {
         /*margin-bottom: 120px;*/
     margin-top: 200px;
 }
-.frisches p{
+.ursprung p{
     margin: 10px 0;
-    text-align: justify; /* Justifica todo o texto */
+    text-align: justify;
+    text-align: center; 
     font-size: 20px;
     
         
 }
-    
-#galeria, .galeria2 {
-    margin-top: 140px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px,  1fr)); /* Define a quantidade e o tamanho das colunas da grade */
-    /*gap:  10px; /* Define o espaço entre as células da grade */
-    
-}
-    
-#galeria img {
-    max-width:  100%;
-    height: auto;
-}
-
-.galeria2 img {
-    max-width:  100%;
-    height: auto;
-}
-
-
-  
-    
 
 
 
-
-
-
-
-#map{
-    max-width: 1280vh;
-    margin: 0 auto;
-    display: block;
-}
-#map h2{
-    font-size: 60px;
-    margin-left: 60px;
-    margin-top: 180px;
-}
-.container-map iframe{
-    margin-top: 60px;
-}
 
 #footer{
     height: 50vh;
