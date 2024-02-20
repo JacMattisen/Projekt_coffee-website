@@ -60,7 +60,7 @@ hr {
 }
 
 #herkunft  img {
-    height: 70vh;
+    height: 90vh;
     width: 1280px;
     margin: 0 auto;
     /*background-image: url(./images/Coffee-beans-hand-2.jpg);
@@ -79,7 +79,7 @@ hr {
     color: black;
 }
 .ursprung h2{
-    font-size: 25px;
+    font-size: 55px;
     color: black;
         
     margin-left: 310px;
@@ -87,14 +87,70 @@ hr {
     margin-top: 200px;
 }
 .ursprung p{
-    margin: 10px 0;
+    margin: 20px 0;
     text-align: justify;
-    text-align: center; 
+    text-align: left; 
     font-size: 20px;
-    
-        
+    justify-content: center;
+    margin-left: 310px;    
 }
 
+.video{
+    
+    margin: 60px 320px;
+    margin-top: 200px;
+    
+}
+
+#id-kaffeebauern {
+    display: block;
+    height: auto;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.anbaugebiete h2, p {
+    color: black;
+    margin-top: 60px;
+    margin-right: 680px;
+}
+.anbaugebiete h2 {
+    margin-bottom: -40px;
+    font-size: 30px;
+    
+    
+}
+
+.anbaugebiete p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+}
+
+.img-anbaugebiete img{
+    height: 420px;
+    weight: auto;
+    margin-top: -130px;
+    margin-left: 640px;
+}
+
+#id-kaffeebauern{
+    display: block;
+    height: auto;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.kaffeebauern h2, p {
+    
+} 
+
+.img-kaffeebauern img{
+    height: 520px;
+    weight: auto;
+}
 
 
 
@@ -105,6 +161,7 @@ hr {
     display: block;
     background-color: black;
     color: white;
+    margin-top: 120px;
 }
 
 .teil1 h2, .teil1 span, .teil2 h2, .teil2 span, .teil3 h2, .teil3 span, .teil4 h2, .teil4 span, .teil5 h2, .teil5 span {
