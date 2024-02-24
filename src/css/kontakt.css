@@ -59,38 +59,11 @@ hr {
         
 }
 
-#id-impressum{
+#kontakt{
     width: 35%;
     margin: 160px auto;
 }
 
-.impressum{
-    margin: 40px;
-}
-
-h2{
-    font-size: 50px;
-    margin: 20px 0;
-}
-
-h3{
-    font-size: 25px;
-    margin: 20px 0;
-}
-
-p{
-    font-size: 18px;
-    margin: 20px 0;
-    margin-top:  10px;
-    margin-bottom:  10px;
-    
-    
-}
- 
-li{
-    
-    text-decoration: none;
-}
 #footer{
     height: 50vh;
     width: 1280px;
