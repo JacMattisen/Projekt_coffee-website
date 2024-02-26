@@ -31,7 +31,7 @@
                 </li>
 
                 <li>
-                    <a href="shop" target="_blank" class="shop"> Shop <img src="./images/icon_shop2.svg"></a>
+                    <a href="shop.html" target="_blank" class="shop"> Shop <img src="./images/icon_shop2.svg"></a>
                 </li>
             </ul>
         </nav>
@@ -40,20 +40,21 @@
         
         </header>
         <hr/>
-
+        
         <section id="kontakt">
-            <div class="container">
+            <div class="two-columns">
+            <div class="container1">
                 <h2> Du hast Fragen? <br> Schreib uns gern </h2>
             </div>
 
             <form action="#">
                 <div>
-                    <label for="name">Name</label>
+                    <label for="name">Name *</label>
                     <input name="name" id="name" type="text" placeholder="Name">
                 </div>
 
                 <div>
-                    <label for="email">E-mail</label>
+                    <label for="email">E-mail *</label>
                     <input type="email" name="email" id="email" placeholder="E-mail">
                 </div>
 
@@ -63,9 +64,13 @@
                 </div>
 
                 <div>
-                    <label for="subject">Betreff</label>
-                    <select name="subject" id="subject">Wähle einen Betreff aus</select>
+                    <label for="subject"></label>
+                    <select name="subject" id="subject">
+                        <option value="" disabled selected>Wähle einen Betreff aus</option>
+                        
+                    </select>
                 </div>
+                
 
                 <div>
                     <label for="message"> Deine Nachricht</label>
@@ -83,6 +88,7 @@
                     <button type="submit">abschicken</button>
                 </div>
             </form>
+            </div>
         </section>
 
 <footer id="footer">
@@ -106,7 +112,7 @@
             <nav>
                 <ul>
                     <li><a href="dascafe.html">Café</a></li>
-                    <li><a href="shop">Shop</a></li>
+                    <li><a href="shop.html">Shop</a></li>
                     <li><a href="herkunft.html">Herkunft</a></li>
                     <li><a href="kontakt.html">Kontakt</a></li>
                 </ul>
