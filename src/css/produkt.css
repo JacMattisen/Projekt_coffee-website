@@ -97,7 +97,7 @@ header li {
 .img-costaRica img, .img-äthiopien img, .img-costaRica2 img, .img-äthiopien2 img {
     
     height: 382px;
-    weight: auto;
+    width: auto;
     margin-top: 100px;
     
     
@@ -116,7 +116,7 @@ header li {
 
 .img-icons img{
     height: 22px;
-    weight: auto;
+    width: auto;
     
 }
 .btn-alle-produkt button{

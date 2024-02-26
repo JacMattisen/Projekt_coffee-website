@@ -101,7 +101,7 @@ hr {
 .img-costaRica img, .img-äthiopien img, .img-costaRica2 img, .img-äthiopien2 img {
     
     height: 382px;
-    weight: auto;
+    width: auto;
     margin-top: 100px;
     
     
@@ -120,7 +120,7 @@ hr {
 
 .img-icons img{
     height: 22px;
-    weight: auto;
+    width: auto;
     
 }
 #map{
@@ -147,7 +147,9 @@ hr {
     
 }
 
-.teil1 h2, .teil1 span, .teil2 h2, .teil2 span, .teil3 h2, .teil3 span, .teil4 h2, .teil4 span, .teil5 h2, .teil5 span {
+.teil1 h2, .teil1 span, .teil2 h2, .teil2 span, 
+.teil3 h2, .teil3 span, .teil4 h2, .teil4 span, 
+.teil5 h2, .teil5 span {
     display: block;
     
     color: white;
@@ -204,20 +206,18 @@ hr {
     
     
 }
-.teil4 a{
-    text-decoration: none;
-    color: white;
+.teil1 ul, .teil2 ul, .teil3 ul, .teil4 ul, .teil5 ul {
     list-style-type: none;
+    text-decoration: none;
+}
+
+.teil4 a, .teil5 a{
+    
+    color: white;
+    
 }
 .teil5 {
     color: white;
     margin-left: 1050px;
     margin-top: -65px;
-    
-    
-}
-.teil5 a{
-    text-decoration: none;
-    color: white;
-    list-style-type: none;
 }
