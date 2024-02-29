@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.carrinho-fechado {
+    display: none;
+}
+
+.carrinho-cabecalho {
+    background-color: #ff5733;
+    padding: 10px;
+    text-align: right;
+}
+
+.fechar-carrinho {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.carrinho-conteudo {
+    background-color: white;
+    padding: 20px;
+}
+
+.mensagem-vazio {
+    text-align: center;
+    color: #999;
+}
+
+.frete-soma {
+    background-color: #e6e6e6;
+    padding: 10px;
+    text-align: right;
+}
+
+.total-compra {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+
+.finalizar-pedido {
+    background-color: #ff5733;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.finalizar-pedido:hover {
+    background-color: #ff7f50;
+    color: white;
+}

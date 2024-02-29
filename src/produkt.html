@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/produkt.css">
-    
+    <script src="./js/script.js" defer></script>
 </head>
 <body>
     
@@ -31,7 +31,10 @@
                 </li>
 
                 <li>
-                    <a href="shop.html" target="_blank" class="shop"> Shop <img src="./images/icon_shop2.svg"></a>
+                    <a href="shop.html" target="_blank" class="shop"> Shop </a>
+                </li>
+                <li>
+                    <a href="warenkorb.html" target="_blank" class="warenkorb"> <img src="./images/icon_shop2.svg"></a>
                 </li>
             </ul>
         </nav>
@@ -41,39 +44,59 @@
         </header>
         <hr/>
 
-        <section class="kaufen">
+        <section id="kaufen">
+            <div class="two-columns">
             <div class="img-kaufen">
                 <img src="./images/Coffee_Costa-Rica 1.svg" alt="">
             </div>
 
-            <div class="container">
+            <div class="container1">
                 <h2>Costa Rica</h2>
                 <h3>6,90€ - 26,90€</h3>
-                <p>Costa Rica Filterkaffee ist äußerst ergiebig und hat praktisch keine Säure. Den Gaumen umschmeichelt ein vollmundiges Haselnussaroma. Gleich probieren!</p>
-            </div>
-
+                <p>Filterkaffee ist äußerst ergiebig und hat praktisch keine Säure. Den Gaumen umschmeichelt ein vollmundiges Haselnussaroma. Gleich probieren!</p>
+            
+        <div class="button-group">
             <div class="btn-dropdown">
-                <button class="dropbtn">wie viel Kaffee brauchst du</button>
-                <div class="dropdown-content">
-                    <a href="#"> 250g gemahlen</a>
-                    <a href="#"> 500g gemahlen</a>
-                    <a href="#"> 250g Bohnen</a>
-                    <a href="#"> 500g Bohnen</a>
+                <select name="dropbtn" id="dropbtn"> wie viel Kaffee brauchst du
+                    <option value="250gGemahlen">250g gemahlen</option>
+                    <option value="500gGemahlen">500g gemahlen</option>
+                    <option value="250gBohnen">250g Bohnen</option>
+                    <option value="500gBohnen">500g Bohnen</option>
+                </select>
+            </div>
+        
+            <div class="btn-warenkorb">
+                <a href="warenkorb.html">
+                    <button class="warenkorb">Warenkorb</button>
+                </a>
+            </div>
+        </div>  
+        <div class="icon-text">
+            <div class="icon-text-item">
+                <img class="icon" src="./images/Icon Kaffee Bohnen.svg" alt="kaffee-bohnen">
+                <div class="text">
+                    <p>Mild <br> geröstet</p>
                 </div>
             </div>
-
-            <div class="btn-warenkorb">
-                <button class="warenkorb">Warenkorb</button>
+            <div class="icon-text-item">
+                <img class="icon" src="./images/Icon French Press.svg" alt="French-press">
+                <div class="text">
+                    <p>Für French <br> Press</p>
+                </div>
             </div>
-
-            <div class="img-icons">
-                <img src="./images/Icon Kaffee Bohnen.svg" alt="kaffee-bohnen">
-                <img src="./images/Icon French Press.svg" alt="French-press">
-                <img src="./images/Icon Kaffee Schaufel.svg" alt="kaffee-schaufel">
+            <div class="icon-text-item">
+                <img class="icon" src="./images/Icon Kaffee Schaufel.svg" alt="kaffee-schaufel">
+                <div class="text">
+                    <p>Gemahlen <br> oder als <br> Bohne</p>
+                </div>
             </div>
-
+        </div>
+        
+            </div>
+            </div>
+            
         </section>
-
+        
         <section class="beschreibung">
             <h2>Beschreibung</h2>
             <p>MAYA Hochlandkaffee von MAYA Kaffee 1991 wird an den Hängen der Sierra Madre de Chiapas angebaut, ein Gebirgszug, der sich entlang der Pazifikküste im Süden Mexikos erstreckt. Hier haben sich indianische Kleinbauern mit Anbauflächen von ein bis drei Hektar Land in Kooperativen zusammengeschlossen und verzichten komplett auf Industriedünger und Pestizide. Schonend geröstet, entwickelt diese einzigartige Spezialität ein überraschend vielschichtiges Aromenspiel mit deutlichen Noten von Haselnuss. Als klassischer Aufguss ist unser MAYA Filterkaffee besonders ergiebig. 100% BIO aus kontrolliert ökologischem Anbau. DE-ÖKO-003 / Nicht-EU-Landwirtschaft.</p>
@@ -191,7 +214,7 @@
         </footer>
         
         
-        <script src="./js/script.js"></script>
+        
         </body>
         
         </html>

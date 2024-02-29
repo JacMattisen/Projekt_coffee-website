@@ -34,10 +34,10 @@
 .menu-hamburguer {
     margin-right:  10px; /* Ajuste o valor conforme necessário */
 }
-.shop img{
-    width:  40px; /* Define a largura da imagem */
+.warenkorb img{
+    width:  20px; /* Define a largura da imagem */
     height: auto;
-    padding: 10px;
+    
 }
 
 
@@ -53,6 +53,123 @@ header li {
     display: inline-block;
     margin: 0 30px;
           
+}
+
+#kaufen{
+    
+    
+    display: block;
+}
+
+.container1 h2{
+    font-size: 3.5em;
+    
+}
+.two-columns {
+    display: flex;
+    gap: 120px;
+    margin-top: 180px;
+    margin-right: 140px;
+    margin-left: 140px;
+}
+
+img-kaufen img{
+    height: 282px;
+    width: auto;
+    margin-top: 100px;
+    margin: 20px;
+}
+.container1 h3{
+    font-size: 1em;
+}
+
+.container1 p{
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between; /* Opcional: alinha os botões com espaço entre eles */
+    align-items: center; /* Opcional: alinha os botões verticalmente no centro */
+}
+
+.btn-dropdown select{
+    width: 140%;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center
+}
+
+.btn-dropdown select:focus {
+    outline: none; /* Remove o contorno padrão no foco */
+    box-shadow:  0  0  5px rgba(0,0,0,0.2); /* Adiciona sombra ao redor do select quando focado */
+}
+
+.btn-dropdown select:hover{
+    background-color: black;
+    color:#fff;
+}
+
+.btn-warenkorb button{
+    width: 140%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon-text-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Adiciona espaço entre os pares de ícone e texto */
+    padding: 20px;
+}
+
+.icon {
+    margin-bottom: 10px; /* Adiciona espaço entre o ícone e o texto */
+}
+
+.text {
+    text-align: center; /* Centraliza o texto */
+}
+
+.beschreibung{
+    width: 70%;
+    margin: 0 auto;
+    color: black;
+    margin-bottom: 100px;
+}
+.beschreibung h2{
+    font-size: 55px;
+    color: black;
+        
+    margin-left: 310px;
+        /*margin-bottom: 120px;*/
+    margin-top: 200px;
+}
+.beschreibung p{
+    margin: 20px 0;
+    text-align: justify;
+    text-align: left; 
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 310px;    
 }
 
 /*ENTDECKE*/
@@ -94,13 +211,19 @@ header li {
     
     margin-left: -40px;
 }
-.img-costaRica img, .img-äthiopien img, .img-costaRica2 img, .img-äthiopien2 img {
+.img-costaRica img, .img-costaRica2 img {
     
     height: 382px;
     width: auto;
     margin-top: 100px;
     
     
+}
+
+.img-äthiopien img, .img-äthiopien2 img{
+    height: 382px;
+    width: auto;
+    margin-top: 100px;
 }
 
 .img-costaRica p, span, .img-äthiopien p, span, .img-costaRica2 p, span, .img-äthiopien2 p, span  {
@@ -200,7 +323,7 @@ header li {
     
     
 }
-.teil4 a{
+.teil1 ul, .teil2 ul, .teil3 ul, .teil4 ul, .teil5 ul{
     text-decoration: none;
     color: white;
     list-style-type: none;

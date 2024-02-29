@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FEND Coffee Website - Jac</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/warenkorb.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <div id="carrinho" class="carrinho-fechado">
+        <div class="carrinho-cabecalho">
+            <button id="fecharCarrinho" class="fechar-carrinho">X</button>
+        </div>
+        <div class="carrinho-conteudo">
+            <div class="mensagem-vazio" id="mensagemVazio">
+                <p>Ainda não foram adicionados produtos.</p>
+            </div>
+            <div class="produtos" id="produtos">
+                <!-- Produtos serão adicionados aqui -->
+            </div>
+        </div>
+        <div class="carrinho-rodape">
+            <div class="frete-soma">
+                <p>Frete: R$ <span id="valorFrete">0.00</span></p>
+                <p>Soma dos produtos: R$ <span id="somaProdutos">0.00</span></p>
+            </div>
+            <div class="total-compra">
+                <p>Total: R$ <span id="totalCompra">0.00</span></p>
+            </div>
+            <button id="finalizarPedido" class="finalizar-pedido">Finalizar Pedido</button>
+        </div>
+    </div>
+    
+</body>
+</html>
