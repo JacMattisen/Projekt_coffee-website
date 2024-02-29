@@ -1,10 +1,11 @@
-body {
-    font-family: Arial, sans-serif;
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Roboto, sans serif;
 }
 
-.carrinho-fechado {
-    display: none;
-}
+
 
 .carrinho-cabecalho {
     background-color: #ff5733;
