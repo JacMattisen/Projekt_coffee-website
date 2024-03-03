@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    
+    font-family: Roboto, sans sans-serif;
 }
 
 .container{
@@ -76,16 +76,20 @@ header li {
 
 .btn-shop button{
     width: 130px;
-    height: 45px;
+    height: 50px;
     border: 5px;
+    border-radius: 5px;
     background-color: #121211;
     color: #fff;
     cursor: pointer;
     transition: -2s;
-    margin-left: -340px;
-    margin-top: 380px;
+    margin-left: -260px;
+    margin-top: 320px;
 }
 
+.btn-shop button:hover{
+    background-color: #808080;
+}
 header.rolagem{
     background-color: #fff;
     padding: 20px, 80px;
@@ -108,21 +112,21 @@ hr {
 
 
 .text-center h1, h2 {
-    color: black;
+    color: white;
     
     text-align: center;
     
 }
 .fullscreen h1 {
-    font-size: 160px;
-    margin-left: 60px;
+    font-size: 110px;
+    justify-content: center;
     
 }
 .fullscreen h2{
     font-size: 25px;
     
     margin-top: 0px;
-    text-align: center;
+    justify-content: center;
 }
 
 /*ROESTEREI*/
@@ -130,9 +134,9 @@ hr {
 #id-roesterei, #id-bio {
     display: block;
     height: 90vh;
-    width: 1280px;
-    margin: 0 auto;
-    padding: 80px;
+    width: 70%;
+    margin: 80px;
+    
     
     
 }
@@ -147,7 +151,7 @@ hr {
     
     font-size: 55px;
     color: black;
-    margin-right: 690px;
+    text-align: left;
 }
 
 .roesterei p {
@@ -167,8 +171,8 @@ hr {
     margin-left: 18px;
 }
 .img-roesterei img{ /*AUMENTAR O TAMANHO DA IMAGEM*/
-    height: 260px;
-    weight: auto;
+    height: 360px;
+    width: auto;
     margin-left: 500px;
     margin-top: -220px;
     
@@ -200,7 +204,7 @@ hr {
 }
 .img-bio img{
     height: 320px;
-    weight: auto;
+    width: auto;
     margin-top: -230px;
 }
 
@@ -249,7 +253,7 @@ hr {
 .img-costaRica img, .img-äthiopien img, .img-costaRica2 img, .img-äthiopien2 img {
     
     height: 382px;
-    weight: auto;
+    width: auto;
     margin-top: 100px;
     
     
@@ -268,7 +272,7 @@ hr {
 
 .img-icons img{
     height: 22px;
-    weight: auto;
+    width: auto;
     
 }
 .btn-alle-produkt button{
@@ -333,7 +337,7 @@ hr {
 
 .das-steckt img {
     height: 422px;
-    weight: auto;
+    width: auto;
     margin-top: 60px;
     margin-left: 100px;
 }
@@ -341,7 +345,7 @@ hr {
 .icons img {
     display:block;
     height: 32px;
-    weight: auto;
+    width: auto;
     margin-left: 550px;
     margin-top: -155px;
 }
@@ -365,7 +369,7 @@ hr {
     transition: -2s;
     margin-left: 550px;
     margin-top: 110px;
-    background-shadow: none;
+    
 }
 
 #map{
