@@ -133,8 +133,6 @@ hr {
 
 #id-roesterei, #id-bio {
     display: block;
-    height: 90vh;
-    width: 70%;
     margin: 80px;
     
     
@@ -144,7 +142,7 @@ hr {
 .roesterei p, .besuchen p, .uhrzei{
     color: black;
     font-size: 20px;
-    margin: 20px;/* VE SE REALMENTE PRECISA*/
+    margin: 20px 0;/* VE SE REALMENTE PRECISA*/
 }
 
 .roesterei h2{
@@ -155,7 +153,6 @@ hr {
 }
 
 .roesterei p {
-    margin-bottom: 25px;
     font-size: 20px;
 }
 
@@ -168,44 +165,41 @@ hr {
 .besuchen address{
     margin-top: -20px;
     font-size: 20px;
-    margin-left: 18px;
+    
 }
 .img-roesterei img{ /*AUMENTAR O TAMANHO DA IMAGEM*/
-    height: 360px;
+    height: 400px;
     width: auto;
-    margin-left: 500px;
+    float: right;
+    margin-left: 580px;
     margin-top: -220px;
     
 }
  /*BIO */
-#id-bio{
-    height: 90vh;
-    width: 1280px;
-    margin: 0 auto;
-}
+
+
+
 .bio-container h2, p {
     color: black;
-    margin-top: 60px;
-}
-.bio-container h2 {
-    margin-bottom: -40px;
-    font-size: 30px;
-    margin-left: 280px;
     
 }
+.bio-container h2 {
+    
+    font-size: 30px;
+    margin-left: 260px;
+    margin-top: 160px;
+}
 
-.bio-container p, .mehr{
+.bio-container p {
     margin-bottom: 10px;
     font-size: 18px;
-    margin-left: 620px;
+    margin-left: 620px; /* text-align: right*/
 }
-.mehr {
-    text-decoration: underline;
-}
+
 .img-bio img{
     height: 320px;
     width: auto;
-    margin-top: -230px;
+    margin-top: -150px;
 }
 
 
@@ -237,18 +231,18 @@ hr {
 .p-entdecke h2 {
     display: flex;
     
-    font-size: 80px;
+    font-size: 65px;
     padding: 0;
     color: white;
     margin-top: 70px;
-    margin-left: -40px;
+    align-items: right;
 }
 .p-entdecke span{
     margin-bottom: 90px;
     font-size: 60px;
     color: white;
     
-    margin-left: -40px;
+    align-items: right;
 }
 .img-costaRica img, .img-äthiopien img, .img-costaRica2 img, .img-äthiopien2 img {
     
@@ -289,11 +283,16 @@ hr {
 }
 
 /* COFFEE BAGS*/
-#coffee-bags{
-    height: 90vh;
-    width: 1280px;
+.bags-coffee {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    
+    height: 90vh; /* Certifique-se de que o container tem uma altura definida */
+    width: auto;
     margin: 0 auto;
 }
+
 .bags-coffee img{
     height: 90vh;
     width: 1280px;
@@ -304,15 +303,18 @@ hr {
     
     letter-spacing: 0.13em;
     font-size: 18px;
-    margin-left: 500px;
+    text-align: center;
     margin-top: -305px;
     margin-bottom: 20px;
 }
 .mehr {
-    text-decoration: none;
+    
     color: #fff;
     font-size: 16px;
-    margin-left: 650px;
+    
+    text-align: center;
+    text-decoration: underline;
+    
 }
 
 /*STECKT*/
@@ -452,7 +454,7 @@ hr {
     
     
 }
-.teil4 a{
+.teil4 a, li{
     text-decoration: none;
     color: white;
     list-style-type: none;
